@@ -44,7 +44,7 @@ class Wizard
     
     public function resetSteps()
     {        
-        $this->currentIndex = -1;
+        $this->currentIndex = 0;
     }
 
     /**

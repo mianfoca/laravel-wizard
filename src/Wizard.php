@@ -41,6 +41,11 @@ class Wizard
         $step = new $stepClassName($naturalNumber, $key, $index, $this);
         return $step;
     }
+    
+    public function resetSteps()
+    {        
+        $this->currentIndex = -1;
+    }
 
     /**
      * @return Step|null
